@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "ec2_jenkins" {
   ami           = "ami-007855ac798b5175e"
   instance_type = "t2.xlarge"
-  key_name      = "keyname"
+  key_name      = "surekey"
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
   associate_public_ip_address = true
 
@@ -21,7 +21,7 @@ resource "aws_instance" "ec2_jenkins" {
 resource "aws_instance" "ec2_sonarqube" {
   ami           = "ami-007855ac798b5175e"
   instance_type = "t2.medium"
-  key_name      = "keyname"
+  key_name      = "surekey"
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
   associate_public_ip_address = true
 

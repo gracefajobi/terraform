@@ -11,5 +11,5 @@
 
 # Restart Tomcat service
 sudo systemctl restart tomcat9
-#delete this line and input your datadog api key inside
+71fe52bc031de7bd9a62e19355bb267292fb0b78
 done

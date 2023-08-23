@@ -12,7 +12,7 @@ sudo apt install jfrog-artifactory-oss -y
 sudo systemctl start artifactory
 sudo systemctl enable artifactory
 sudo systemctl status artifactory
-#delete this line and input your datadog api key inside
+71fe52bc031de7bd9a62e19355bb267292fb0b78
 
 
 done
